@@ -85,7 +85,7 @@ public abstract class User {
 
 
     // API LOGIN
-    public String login(String username, String password) {
+    public static String signIn(String username, String password) {
 
         if (DataStore.getPersistentStore().containsKey(username)) {
 
@@ -103,7 +103,7 @@ public abstract class User {
     }
 
     // API REGISTER
-    public String register(String email, String password, String reTypePassword, String firstName, String lastName, String gender, String country , String userType) {
+    public static String signUp(String email, String password, String reTypePassword, String firstName, String lastName, String gender, String country , String userType) {
 
         if (DataStore.getPersistentStore().containsKey(email)) {
             return "Username Taken";
