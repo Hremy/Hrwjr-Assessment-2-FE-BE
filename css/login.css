@@ -70,4 +70,8 @@ body {
 
 @media only screen and (max-device-width: 480px) {
 
+    .hrwjr-form-data {
+        width: calc(100% - 30px);
+    }
+
 }
