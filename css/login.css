@@ -1,0 +1,73 @@
+body {
+    background-color: #e7e5df;
+}
+
+.hrwjr-form-data {
+    background-color:#ffffff;
+    width: 465px;
+    margin: auto;
+    padding-bottom: 70px;
+    border-top: solid 6px #ecd610;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.hrwjr-title-data {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.hrwjr-input-data {
+    display: flex;
+    height: 50px;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 13px;
+}
+
+.hrwjr-input-data input {
+    height: 34px; 
+    width: calc(100% - 33px);
+    margin-top: 0px;
+    border: solid;
+    border-width: 1px;
+    border-color: #333232;
+    padding-left: 10px;
+}
+
+.hrwjr-input-data .fa {
+    width: 33px;
+    border: solid;
+    border-width: 1px;
+    height: 26px;
+    text-align: center;
+    padding-top: 10px;
+    color: #333232;
+    border-color: #333232;
+    border-right: 0px;
+    font-size: 14px;
+    
+}
+
+
+.hrwjr-submit-data {
+    text-align: center;
+}
+
+.hrwjr-submit-data button  {
+    width: 90%;
+    background-color: #ecd610;
+    height: 40px;
+    border-width: 0px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.hrwjr-submit-data button:hover {
+    background-color: #25a1a1;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+}
