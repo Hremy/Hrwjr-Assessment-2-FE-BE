@@ -75,12 +75,12 @@ public abstract class User {
         this.lastName = lastName;
     }
 
-    public void setGender(String country) {
-        this.country = country;
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
-    public void setCountry(String gender) {
-        this.gender = gender;
+    public void setCountry(String country) {
+        this.country = country;
     }
 
 
@@ -111,7 +111,7 @@ public abstract class User {
 
         if (password.equals(reTypePassword)) {
 
-            // can be replaced with "switch case"
+            //
 
             if (userType.equals("admin")) {
 
@@ -126,7 +126,11 @@ public abstract class User {
                 admin.setCountry(country);
                 admin.setUserType(userType);
 
-                DataStore.getPersistentStore().put(admin.getUsername(), admin);
+                if(admin.getPassword() != null) {
+                    DataStore.getPersistentStore().put(admin.getUsername(), admin);
+                }else {
+                    return "Password length should be 8 characters";
+                }
 
                 return "true";
 
@@ -143,7 +147,11 @@ public abstract class User {
                 patient.setCountry(country);
                 patient.setUserType(userType);
 
-                DataStore.getPersistentStore().put(patient.getUsername(), patient);
+                if(patient.getPassword() != null) {
+                    DataStore.getPersistentStore().put(patient.getUsername(), patient);
+                }else {
+                    return "Password length should be 7 characters";
+                }
 
                 return "true";
 
@@ -160,7 +168,11 @@ public abstract class User {
                 physician.setCountry(country);
                 physician.setUserType(userType);
 
-                DataStore.getPersistentStore().put(physician.getUsername(), physician);
+                if(physician.getPassword() != null) {
+                    DataStore.getPersistentStore().put(physician.getUsername(), physician);
+                }else {
+                    return "Password length should be 6 characters";
+                }
 
                 return "true";
 
@@ -177,7 +189,11 @@ public abstract class User {
                 pharmacist.setCountry(country);
                 pharmacist.setUserType(userType);
 
-                DataStore.getPersistentStore().put(pharmacist.getUsername(), pharmacist);
+                if(pharmacist.getPassword() != null) {
+                    DataStore.getPersistentStore().put(pharmacist.getUsername(), pharmacist);
+                }else {
+                    return "Password length should be 6 characters";
+                }
 
                 return "true";
 
