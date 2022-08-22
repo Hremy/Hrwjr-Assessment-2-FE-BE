@@ -5,21 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="774bed7a-5f65-416f-bbab-5101736222f7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/Java-Backend/hrwjr/bankLoan/Loan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java-Backend/hrwjr/medicare/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java-Backend/hrwjr/medicare/DataStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java-Backend/hrwjr/medicare/Patient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java-Backend/hrwjr/medicare/Pharmacist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java-Backend/hrwjr/medicare/Physician.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java-Backend/hrwjr/medicare/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hrwjr/bankLoan/Loan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hrwjr/medicare/API.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HTML-Design/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML-Design/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML-Design/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML-Design/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP-Servlet/login-controller.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JSP-Servlet/login-controller.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSP-Servlet/register-controller.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JSP-Servlet/register-controller.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hrwjr/medicare/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hrwjr/medicare/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hrwjr/medicare/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hrwjr/medicare/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hrwjr/medicare/Pharmacist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hrwjr/medicare/Pharmacist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hrwjr/medicare/Physician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hrwjr/medicare/Physician.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hrwjr/medicare/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hrwjr/medicare/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -37,6 +49,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="Loan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hrwjr.bankLoan.Loan" />
+      <module name="Java-Backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hrwjr.bankLoan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Loan" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,5 +79,16 @@
       <updated>1660639956114</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

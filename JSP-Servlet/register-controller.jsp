@@ -12,7 +12,7 @@
     String country = request.getParameter("country");
     String userType = request.getParameter("usertype");
 
-    String register = User.signUp(email, password, reTypePassword, firstName, lastName, gender, country , userType);
+    String register = API.signUp(email, password, reTypePassword, firstName, lastName, gender, country , userType);
 
     if(register.equals("true")) {
 

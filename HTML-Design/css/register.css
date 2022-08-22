@@ -1,0 +1,120 @@
+body {
+    background-color: #e7e5df;
+}
+
+.hrwjr-form-data {
+    background-color:#ffffff;
+    width: 465px;
+    margin: auto;
+    padding-bottom: 70px;
+    border-top: solid 6px #ecd610;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.hrwjr-title-data {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.hrwjr-input-data {
+    display: flex;
+    height: 50px;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 13px;
+}
+
+.hrwjr-input-data input {
+    height: 34px; 
+    width: calc(100% - 33px);
+    margin-top: 0px;
+    border: solid;
+    border-width: 1px;
+    border-color: #333232;
+    padding-left: 10px;
+}
+
+.hrwjr-input-data .fa {
+    width: 33px;
+    border: solid;
+    border-width: 1px;
+    height: 26px;
+    text-align: center;
+    padding-top: 10px;
+    color: #333232;
+    border-color: #333232;
+    border-right: 0px;
+    font-size: 14px;
+    
+}
+.hrwjr-inputgroup-data {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    gap:15px;
+}
+
+.hrwjr-checkbox-data {
+    margin-left: 3.7%;
+    margin-bottom: 20px;
+}
+
+.hrwjr-submit-data {
+    text-align: center;
+}
+
+.hrwjr-submit-data button  {
+    width: 90%;
+    background-color: #ecd610;
+    height: 40px;
+    border-width: 0px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+.hrwjr-submit-data button:hover {
+    background-color: #25a1a1;
+} 
+
+.hrwjr-gender-data {
+    margin-left: 3.4%;
+    margin-bottom: 20px;
+}
+.hrwjr-countries-data{
+    text-align: center;  
+    margin-bottom: 20px;
+}
+
+.hrwjr-countries-data select {
+    width: 90%;
+    height: 36px;
+    padding-left: 17px;
+    font-size:15px;
+}
+
+.hrwjr-countries-data select option {
+    font-size: 15px;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+    .hrwjr-form-data {
+        width: calc(100% - 30px);
+    }
+    
+    .hrwjr-inputgroup-data {
+        display: block;
+        padding-left: 0%;
+        padding-right: 0%;
+        gap:0px;
+    }
+
+    .hrwjr-countries-data select {
+        width: 86%;
+    }
+
+
+}

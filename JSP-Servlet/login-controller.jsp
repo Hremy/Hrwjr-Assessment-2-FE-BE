@@ -6,7 +6,7 @@
     String username = request.getParameter("email");
     String password = request.getParameter("password");
 
-    String login = User.signIn(username , password);
+    String login = API.signIn(username , password);
 
     if(login.equals("true")){
 
